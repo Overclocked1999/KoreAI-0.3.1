@@ -1,0 +1,29 @@
+{
+  "name": "koreai",
+  "version": "0.3.1",
+  "private": true,
+  "description": "KoreAI — real-time streaming AI chat workspace powered by NVIDIA Inference API",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "check-models": "node --env-file=.env.local scripts/check-models.mjs"
+  },
+  "dependencies": {
+    "@netlify/plugin-nextjs": "^5.15.11",
+    "next": "^16.3.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "^16.3.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
